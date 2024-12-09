@@ -5,7 +5,7 @@ const description = document.getElementById('description');
 const temperature = document.getElementById('temperature');
 const humidity = document.getElementById('humidity');
 
-const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your OpenWeatherMap API key
+const API_KEY = 'ded6e0f5319cb4899c6e4e90099183be'; // Replace with your OpenWeatherMap API key
 
 // Fetch weather data
 async function fetchWeather(lat, lon) {
