@@ -1,5 +1,5 @@
 
-📝 Markdown Editor
+#📝 Markdown Editor
 
 Markdown Editor adalah aplikasi berbasis web yang memungkinkan pengguna untuk menulis dan melihat pratinjau markdown secara real-time. Proyek ini dirancang dengan tampilan futuristik bertema teknologi menggunakan HTML, CSS, dan JavaScript.
 
@@ -9,10 +9,15 @@ Markdown Editor adalah aplikasi berbasis web yang memungkinkan pengguna untuk me
 🌟 Fitur
 
 ✔️ Real-time Preview: Markdown yang Anda tulis akan langsung dirender sebagai HTML di sebelah kanan.
+
 ✔️ Heading: Mendukung berbagai tingkat heading (#, ##, ###).
+
 ✔️ Text Styling: Mendukung bold, italic, dan kombinasi lainnya.
+
 ✔️ Hyperlinks: Tambahkan tautan menggunakan format markdown standar.
+
 ✔️ Images: Masukkan gambar dengan sintaks markdown.
+
 ✔️ Futuristic Design: Tampilan modern dengan tema gelap bertema teknologi.
 
 
