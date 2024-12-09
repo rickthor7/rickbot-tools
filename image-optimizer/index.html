@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Optimizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🖼 Image Optimizer</h1>
+            <p>Compress your images efficiently</p>
+        </header>
+        <main>
+            <div class="upload-section">
+                <h2>Drag & Drop Image Here</h2>
+                <div class="dropzone" id="dropzone">
+                    <p>Or click to upload</p>
+                    <input type="file" id="imageInput" accept="image/*" hidden>
+                </div>
+                <div class="settings">
+                    <label for="quality">Compression Level (1-100):</label>
+                    <input type="number" id="quality" min="1" max="100" value="75">
+                </div>
+                <button id="compressButton">Compress</button>
+            </div>
+            <div class="preview-section">
+                <h2>Preview & Download</h2>
+                <div id="preview"></div>
+            </div>
+        </main>
+        <footer>
+            <p>Developed by Thoriq | Powered by HTML, CSS, JavaScript</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
