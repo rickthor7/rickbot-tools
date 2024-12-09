@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Quiz Maker</h1>
+            <p>Create and take quizzes effortlessly</p>
+        </header>
+        <main>
+            <div class="quiz-maker">
+                <h2>Create a Quiz</h2>
+                <div class="input-group">
+                    <label for="question">Question</label>
+                    <input type="text" id="question" placeholder="Enter your question" />
+                </div>
+                <div class="input-group">
+                    <label for="answer">Answer</label>
+                    <input type="text" id="answer" placeholder="Enter the correct answer" />
+                </div>
+                <button id="addQuestionButton">Add Question</button>
+            </div>
+            <div class="quiz">
+                <h2>Take the Quiz</h2>
+                <div id="quizQuestions"></div>
+                <button id="submitQuizButton" disabled>Submit Quiz</button>
+            </div>
+            <div id="result" class="result"></div>
+        </main>
+        <footer>
+            <p>Developed by Thoriq | Powered by HTML, CSS, JavaScript</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
