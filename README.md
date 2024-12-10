@@ -1,194 +1,117 @@
-# rickbot-tools
+# 🌐 RickBot Tools
 
-🌐 12 Tools Online Menggunakan HTML, CSS, dan JavaScript 🌟
+**RickBot Tools** adalah koleksi alat online sederhana berbasis HTML, CSS, dan JavaScript yang dirancang untuk mempermudah berbagai aktivitas digital Anda. Semua alat memiliki antarmuka yang futuristik dan mudah digunakan.
 
-Kumpulan proyek sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript. Proyek-proyek ini dirancang untuk membantu pengembang meningkatkan keterampilan coding sekaligus menciptakan sesuatu yang bermanfaat! 💻
+---
+
+## 📜 Daftar Tools
+
+### 1. **Code Formatter**
+🔹 Deskripsi: Alat untuk mempercantik kode agar lebih mudah dibaca.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/code-formatter/)
+
+---
+
+### 2. **Color Palette Generator**
+🔹 Deskripsi: Membuat kombinasi warna untuk inspirasi desain.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/color-palette-generator/)
+
+---
+
+### 3. **Unit Converter**
+🔹 Deskripsi: Mengonversi berbagai satuan seperti panjang, berat, dan suhu.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/unit-converter/)
+
+---
+
+### 4. **To-Do List**
+🔹 Deskripsi: Aplikasi sederhana untuk mencatat dan mengatur tugas Anda.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/to-do-list/)
+
+---
+
+### 5. **Online Calculator**
+🔹 Deskripsi: Kalkulator fungsional untuk perhitungan matematika sederhana.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/online-calculator/)
+
+---
+
+### 6. **Currency Converter**
+🔹 Deskripsi: Mengonversi mata uang dengan kurs real-time.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/currency-converter/)
+
+---
+
+### 7. **Pomodoro Timer**
+🔹 Deskripsi: Timer produktivitas berdasarkan teknik Pomodoro.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/pomodoro-timer/)
+
+---
+
+### 8. **Online Quiz Maker**
+🔹 Deskripsi: Membuat dan menyelesaikan kuis online dengan penilaian otomatis.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/online-quiz-maker/)
+
+---
+
+### 9. **Weather App**
+🔹 Deskripsi: Menampilkan prakiraan cuaca real-time berdasarkan lokasi.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/weather-app/)
+
+---
+
+### 10. **Resume Builder**
+🔹 Deskripsi: Membuat resume profesional dengan template yang dapat disesuaikan.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/resume-builder/)
+
+---
+
+### 11. **Image Optimizer**
+🔹 Deskripsi: Mengompresi gambar untuk memperkecil ukuran file.  
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/image-optimizer/)
+
+---
+
+## 📂 Struktur Direktori
+rickbot-tools/
+├── code-formatter/
+├── color-palette-generator/
+├── unit-converter/ 
+├── to-do-list/ 
+├── online-calculator/ 
+├── currency-converter/
+├── pomodoro-timer/ 
+├── online-quiz-maker/ 
+├── weather-app/ 
+├── resume-builder/ 
+└── image-optimizer/
 
 
 ---
 
-📜 Daftar Tools
+## 🛠 Teknologi yang Digunakan
 
-1. 🛠 Code Formatter
-
-🔹 Deskripsi: Merapikan kode yang berantakan menjadi lebih rapi dan terstruktur.
-🔹 Fitur:
-
-Input dan output area untuk kode.
-
-Tombol untuk memformat kode.
-
-Desain futuristik bertema teknologi.
-
-
-2. 🎨 Color Palette Generator
-
-🔹 Deskripsi: Membuat kombinasi warna yang menarik untuk proyek desain.
-🔹 Fitur:
-
-Random color generator.
-
-Salin kode warna (HEX, RGB).
-
-Pratinjau kombinasi warna.
-
-
-3. ✍️ Markdown Editor
-
-🔹 Deskripsi: Editor markdown yang menampilkan hasil secara real-time.
-🔹 Fitur:
-
-Live preview untuk teks markdown.
-
-Ekspor ke format .txt atau .md.
-
-
-4. 🔄 Unit Converter
-
-🔹 Deskripsi: Alat untuk mengonversi berbagai unit (panjang, berat, suhu).
-🔹 Fitur:
-
-Input nilai dan pilihan unit.
-
-Hasil konversi real-time.
-
-
-5. ✅ To-Do List dengan Local Storage
-
-🔹 Deskripsi: Aplikasi untuk mencatat tugas dengan fitur penyimpanan lokal.
-🔹 Fitur:
-
-Tambah, hapus, centang tugas.
-
-Simpan data otomatis dengan localStorage.
-
-
-6. ➕ Online Calculator
-
-🔹 Deskripsi: Kalkulator online untuk operasi matematika dasar.
-🔹 Fitur:
-
-Desain responsif dan animasi interaktif.
-
-Dukungan untuk keyboard input.
-
-
-7. 💵 Currency Converter
-
-🔹 Deskripsi: Aplikasi untuk mengonversi mata uang dengan kurs real-time.
-🔹 Fitur:
-
-API integrasi untuk mendapatkan kurs terkini.
-
-Input nilai dan pilihan mata uang.
-
-
-8. ⏳ Pomodoro Timer
-
-🔹 Deskripsi: Timer produktivitas berdasarkan teknik Pomodoro.
-🔹 Fitur:
-
-Timer kerja (25 menit) dan istirahat (5 menit).
-
-Alarm notifikasi.
-
-
-9. ❓ Online Quiz Maker
-
-🔹 Deskripsi: Alat untuk membuat dan menyelesaikan kuis online.
-🔹 Fitur:
-
-Input untuk membuat soal dan jawaban.
-
-Scoring system otomatis.
-
-
-10. ☀️ Weather App
-
-🔹 Deskripsi: Menampilkan cuaca berdasarkan lokasi pengguna.
-🔹 Fitur:
-
-Integrasi API cuaca (misalnya OpenWeatherMap).
-
-Prakiraan cuaca real-time.
-
-
-11. 📝 Resume Builder
-
-🔹 Deskripsi: Membuat resume dengan template yang dapat disesuaikan.
-🔹 Fitur:
-
-Form input informasi pengguna.
-
-Pratinjau real-time dan ekspor ke PDF.
-
-
-12. 🖼 Image Optimizer
-
-🔹 Deskripsi: Mengompresi gambar untuk memperkecil ukuran file.
-🔹 Fitur:
-
-Drag & drop gambar.
-
-Pilihan tingkat kompresi.
-
-
+- **HTML**: Untuk struktur aplikasi.  
+- **CSS**: Untuk desain responsif bertema futuristik.  
+- **JavaScript**: Untuk logika interaktif dan dinamis.  
+- **API**: Digunakan pada beberapa aplikasi seperti Currency Converter dan Weather App.
 
 ---
 
-📂 Cara Menggunakan
+## 🚀 Cara Mengakses
 
-1. Clone atau unduh repository ini:
+1. Klik tautan pada masing-masing tools di atas untuk mengaksesnya secara langsung.  
+2. Atau clone repositori ini dan jalankan di browser lokal Anda:
+   ```bash
+   git clone https://github.com/rickthor7/rickbot-tools.git
+   cd rickbot-tools
+3. Buka file index.html di setiap folder untuk mencoba.
 
-git clone https://github.com/rickthor7/rickbot-tools.git
+## 📄 Lisensi
+Repositori ini dilisensikan di bawah MIT License. Silakan gunakan, modifikasi, dan bagikan!
 
-
-2. Pilih salah satu folder proyek sesuai dengan tools yang ingin dicoba.
-
-
-3. Buka file index.html di browser favoritmu.
-
-
-4. Nikmati tools-nya! 🌟
-
-
-
+Happy coding! 🎉
 
 ---
 
-📌 Tujuan Proyek
-
-✅ Meningkatkan pemahaman tentang HTML, CSS, dan JavaScript.
-✅ Menciptakan alat-alat yang bermanfaat untuk pengembang.
-✅ Membiasakan diri dengan penggunaan API dan penyimpanan lokal.
-
-
----
-
-🤝 Kontribusi
-
-Kami menyambut kontribusi dari siapa saja! 🎉
-
-Jika kamu memiliki ide fitur baru atau menemukan bug, silakan ajukan pull request atau buka issue.
-
-
-
----
-
-📜 Lisensi
-
-Proyek ini dilisensikan di bawah MIT License.
-
-
----
-
-📞 Kontak
-
-📧 Email: 24051204170@mhs.unesa.ac.id
-🌐 Website: bocilteknologi.my.id
-
-
----
-
-README ini bisa disesuaikan lebih lanjut jika kamu punya tambahan deskripsi atau detail lainnya. Semoga bermanfaat! 😊
-
+Jika ada yang ingin diubah atau ditambahkan, beri tahu saya! 😊
