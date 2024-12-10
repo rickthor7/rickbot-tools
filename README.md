@@ -50,7 +50,7 @@
 
 ### 8. **Online Quiz Maker**
 🔹 Deskripsi: Membuat dan menyelesaikan kuis online dengan penilaian otomatis.  
-🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/online-quiz-maker/)
+🔗 [Gunakan di sini](https://rickthor7.github.io/rickbot-tools/quiz-maker/)
 
 ---
 
