@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebook Reader with AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Ebook Reader with AI</h1>
+
+        <!-- PDF File Input -->
+        <input type="file" id="pdfInput" accept=".pdf">
+        
+        <!-- PDF Viewer -->
+        <div id="pdfViewer" class="viewer"></div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button id="prevPage">⬅️ Previous</button>
+            <span id="pageInfo">Page <span id="currentPage">1</span> of <span id="totalPages">1</span></span>
+            <button id="nextPage">➡️ Next</button>
+            <button id="darkModeToggle">🌙 Dark Mode</button>
+        </div>
+
+        <!-- AI Tools -->
+        <div class="ai-tools">
+            <h3>AI Tools</h3>
+            <button id="summarizeBtn">📝 Summarize PDF</button>
+            <textarea id="summary" placeholder="Summary will appear here..." readonly></textarea>
+
+            <label for="question">Ask a question about the PDF:</label>
+            <input type="text" id="question" placeholder="Type your question here...">
+            <button id="askBtn">🤖 Ask</button>
+            <textarea id="answer" placeholder="Answer will appear here..." readonly></textarea>
+        </div>
+    </div>
+
+    <script src="pdf.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
