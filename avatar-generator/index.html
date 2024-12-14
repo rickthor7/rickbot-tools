@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Avatar Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🛠️ Futuristic Avatar Generator</h1>
+    </header>
+    <main>
+      <div class="avatar-preview">
+        <canvas id="avatarCanvas" width="300" height="300"></canvas>
+      </div>
+      <div class="controls">
+        <h2>Customize Your Avatar</h2>
+        <label for="skinColor">Skin Color:</label>
+        <input type="color" id="skinColor" value="#f2c27d">
+        
+        <label for="eyeColor">Eye Color:</label>
+        <input type="color" id="eyeColor" value="#000000">
+        
+        <label for="mouthStyle">Mouth Style:</label>
+        <select id="mouthStyle">
+          <option value="smile">Smile</option>
+          <option value="neutral">Neutral</option>
+          <option value="frown">Frown</option>
+        </select>
+        
+        <label for="hairStyle">Hair Style:</label>
+        <select id="hairStyle">
+          <option value="short">Short</option>
+          <option value="curly">Curly</option>
+          <option value="bald">Bald</option>
+        </select>
+        
+        <label for="hairColor">Hair Color:</label>
+        <input type="color" id="hairColor" value="#4a2f27">
+        
+        <button id="randomizeBtn">🎲 Randomize</button>
+        <button id="downloadBtn">⬇️ Download Avatar</button>
+      </div>
+    </main>
+    <footer>
+      <p>Created with ❤️ by RickBot Tools</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
