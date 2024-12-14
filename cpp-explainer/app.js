@@ -22,6 +22,7 @@ explainBtn.addEventListener("click", async () => {
 
   // Fetch Explanation from API
   explanation.textContent = "Processing... Please wait.";
+  
   try {
     const response = await fetch("https://api.cohere.ai/generate", {
       method: "POST",
@@ -38,10 +39,12 @@ explainBtn.addEventListener("click", async () => {
     });
 
     const data = await response.json();
-    if (data.generations && data.generations.length > 0) {
+    
+    // Cek apakah API mengirimkan penjelasan atau tidak
+    if (data && data.generations && data.generations.length > 0) {
       explanation.textContent = data.generations[0].text.trim();
     } else {
-      explanation.textContent = "No explanation was generated. Please try again.";
+      explanation.textContent = "No explanation was generated. Please check your code.";
     }
   } catch (error) {
     console.error("Error fetching explanation:", error);
