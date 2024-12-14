@@ -1,0 +1,147 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#toggleMode {
+    background-color: #0078d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#toggleMode:hover {
+    background-color: #005fa3;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2b2b3f;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Dropdown */
+.options {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0078d4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0078d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* Output */
+#output {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #2b2b3f;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+#summaryText {
+    color: #00d4ff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Loading Animation */
+#loading {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffa500;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+body.dark-mode .container {
+    background-color: #f0f0f0;
+}
+
+body.dark-mode #toggleMode {
+    background-color: #f0f0f0;
+    color: #121212;
+}
+
+body.dark-mode textarea,
+body.dark-mode #output {
+    background-color: #ffffff;
+    color: #121212;
+}
