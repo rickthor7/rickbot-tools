@@ -3,37 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌊 GetWaves</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>GetWaves Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>🌊 GetWaves</h1>
-            <p>Generate stunning SVG wave patterns for your projects.</p>
-        </header>
-        <main>
-            <div class="controls">
-                <label for="waveHeight">Wave Height:</label>
-                <input type="range" id="waveHeight" min="10" max="300" value="150">
+        <h1>🌊 GetWaves Generator</h1>
+        <p>Customize and generate wave SVGs easily!</p>
 
-                <label for="waveFrequency">Wave Frequency:</label>
-                <input type="range" id="waveFrequency" min="1" max="10" value="5">
+        <!-- Input for wave properties -->
+        <div class="controls">
+            <label for="waveColor">Wave Color:</label>
+            <input type="color" id="waveColor" value="#0078d4">
 
-                <label for="waveColor">Wave Color:</label>
-                <input type="color" id="waveColor" value="#00ffcc">
+            <label for="waveHeight">Wave Height:</label>
+            <input type="range" id="waveHeight" min="50" max="300" value="150">
 
-                <button id="generateWave">Generate Wave</button>
-                <button id="downloadWave">Download SVG</button>
-            </div>
-            <div class="output">
-                <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300"></svg>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; 2024 GetWaves | Designed by Thoriq</p>
-        </footer>
+            <label for="waveOpacity">Wave Opacity:</label>
+            <input type="range" id="waveOpacity" min="0.1" max="1" step="0.1" value="1">
+        </div>
+
+        <!-- Preview and buttons -->
+        <div class="wave-preview" id="wavePreview">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="300" viewBox="0 0 1440 320" id="waveSVG">
+                <path fill="#0078d4" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,138.7C384,160,480,192,576,202.7C672,213,768,203,864,197.3C960,192,1056,192,1152,197.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <div class="buttons">
+            <button id="copyXML">📋 Copy XML</button>
+            <button id="downloadXML">📥 Download SVG</button>
+        </div>
     </div>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
