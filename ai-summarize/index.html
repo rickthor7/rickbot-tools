@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 AI Text Summarizer</h1>
+            <button id="toggleMode">🌙 Dark Mode</button>
+        </header>
+        <textarea id="inputText" placeholder="Paste your text here..." rows="10"></textarea>
+        <div class="options">
+            <label for="summaryLength">Summary Length:</label>
+            <select id="summaryLength">
+                <option value="short">Short</option>
+                <option value="medium" selected>Medium</option>
+                <option value="long">Long</option>
+            </select>
+        </div>
+        <button id="summarizeBtn">Summarize</button>
+        <div id="loading" class="hidden">⏳ Summarizing... Please wait...</div>
+        <div id="output">
+            <h2>Summary:</h2>
+            <p id="summaryText"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
