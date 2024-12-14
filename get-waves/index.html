@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌊 GetWaves</title>
+    <link rel="stylesheet" href="getwaves.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌊 GetWaves</h1>
+            <p>Generate stunning SVG wave patterns for your projects.</p>
+        </header>
+        <main>
+            <div class="controls">
+                <label for="waveHeight">Wave Height:</label>
+                <input type="range" id="waveHeight" min="10" max="300" value="150">
+
+                <label for="waveFrequency">Wave Frequency:</label>
+                <input type="range" id="waveFrequency" min="1" max="10" value="5">
+
+                <label for="waveColor">Wave Color:</label>
+                <input type="color" id="waveColor" value="#00ffcc">
+
+                <button id="generateWave">Generate Wave</button>
+                <button id="downloadWave">Download SVG</button>
+            </div>
+            <div class="output">
+                <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300"></svg>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 GetWaves | Designed by Thoriq</p>
+        </footer>
+    </div>
+    <script src="getwaves.js"></script>
+</body>
+</html>
