@@ -36,7 +36,11 @@
             <textarea id="answer" placeholder="Answer will appear here..." readonly></textarea>
         </div>
     </div>
-
+  <!-- Include PDF.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  <script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+  </script>
     <script src="pdf.js"></script>
     <script src="app.js"></script>
 </body>
