@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C++ Code Explainer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>✨ C++ Code Explainer</h1>
+      <p>Understand your C++ code in seconds with AI-powered explanations!</p>
+    </header>
+    <main>
+      <div class="input-section">
+        <label for="cppCode">Enter Your C++ Code:</label>
+        <textarea id="cppCode" rows="10" placeholder="// Paste your C++ code here"></textarea>
+        <button id="explainBtn">Explain Code</button>
+      </div>
+      <div class="output-section">
+        <h2>Highlighted Code:</h2>
+        <pre><code id="highlightedCode" class="language-cpp">// Your highlighted code will appear here</code></pre>
+        <h2>Explanation:</h2>
+        <p id="explanation">The explanation will appear here after processing...</p>
+      </div>
+    </main>
+    <footer>
+      <p>Powered by RickBot Tools</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
